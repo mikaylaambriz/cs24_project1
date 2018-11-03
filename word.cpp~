@@ -1,0 +1,11 @@
+#include "word.h"
+
+word::word(string wordname, string file)
+{
+  this->myWord=wordname;
+  thisBag.add(file); 
+}
+
+word::string getWord(){
+  return this->myWord;
+}
